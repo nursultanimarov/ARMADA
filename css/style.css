@@ -1,0 +1,522 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.header_top_block {
+    background-color: rgb(101, 37, 111);
+    padding: 10px 0;
+}
+
+.header_top_block .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_text {
+    color: rgb(255, 183, 0);
+}
+
+.text_number {
+    display: flex;
+}
+
+.right_text {
+    color: #fff;
+}
+
+.text_number a {
+    color: rgb(255, 183, 0);
+    padding-left: 5px;
+}
+
+
+
+.navigation_block {
+    padding: 8px 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.navigation_block .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_block nav {
+    display: flex;
+    width: 75%;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu a {
+    color: rgb(42, 40, 40);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.price {
+    background-color: rgb(101, 37, 111);
+    color: #fff;
+    width: 180px;
+    height: 35px;
+}
+
+
+/* ======MAin======== */
+.bg_fone {
+    background: url('../images/bg.png') center / cover no-repeat;
+    height: 90vh;
+
+}
+
+.inner_bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.inner_bg .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.text {
+    flex: 0 1 50%;
+}
+
+.text h2 {
+    width: 95%;
+    color: #fff;
+    font-size: 64px;
+    font-family: 'Gilory', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text h2::after {
+    content: '';
+    display: block;
+    width: 52px;
+    height: 4px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.text p {
+    width: 80%;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 31px;
+}
+
+.text button {
+    padding: 19px 75px 17px;
+    background-color: #ffc957;
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+/* ==========SECTION - MAIN CARDS=============== */
+
+.title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: '';
+    height: 2px;
+    background-color: rgb(190, 190, 190);
+    width: 40%;
+    position: absolute;
+    top: 45%;
+}
+
+.title::before {
+    left: 0;
+}
+
+.title::after {
+    right: 0;
+}
+
+
+.main_cards .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card {
+    width: 270px;
+    height: 350px;
+    padding: 40px 15px 30px;
+    border-radius: 3px;
+    box-shadow: 0px 6px 32px 0px rgb(0, 0, 0, 0.05);
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.main_cards h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.main_cards p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.card3 p {
+    margin-bottom: 37px;
+}
+
+.card4 p {
+    margin-bottom: 34px;
+}
+
+.main_cards a {
+    color: rgb(117, 62, 214);
+}
+
+/* =========== SECTION - WORKS LIST=============== */
+
+.title_our_works::before,
+.title_our_works::after {
+    width: 39%;
+}
+
+.works_list .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.works {
+    flex: 0 1 30%;
+    height: 302px;
+    margin-bottom: 30px;
+}
+
+.work1 {
+    background: url(../images/work1.png) center / cover no-repeat;
+}
+
+.work2 {
+    background: url(../images/work2.png) center / cover no-repeat;
+
+}
+
+.work3 {
+    background: url(../images/work3.png) center / cover no-repeat;
+}
+
+.work4 {
+    background: url(../images/work4.png) center / cover no-repeat;
+}
+
+.work5 {
+    background: url(../images/work1.png) center / cover no-repeat;
+}
+
+.work6 {
+    background: url(../images/work6.png) center / cover no-repeat;
+}
+
+.works h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.works_list button {
+    border-radius: 3px;
+    background-color: rgb(101, 37, 111);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Gilroy;
+    margin: 40px auto;
+    display: block;
+    width: 368px;
+    height: 52px;
+}
+
+/* ======== SECTION - OUR PRODUCTIONS ========== */
+
+.our_productions .title::before,
+.our_productions .title::after {
+    width: 39%;
+}
+
+.our_productions .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* =========== SECTION - OUR ALL PRICE============= */
+
+.all_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.price_card {
+    flex: 0 1 23%;
+}
+
+.all_price img {
+    width: 100%;
+    height: 387px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.price_card p {
+    color: rgb(90, 88, 88);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.price_card .money {
+    color: rgb(76, 31, 140);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.price_button {
+    border-radius: 3px;
+    background-color: rgb(101, 37, 111);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Gilroy;
+    margin: 40px auto;
+    display: block;
+    width: 368px;
+    height: 52px;
+}
+
+
+/* ======== SECTION - OUR CLIENTS========= */
+
+.our_all_clients .title::before,
+.our_all_clients .title::after {
+    width: 39%;
+}
+
+.our_clients {
+    font-size: 48px;
+
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+
+.our_all_clients .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* ======== SECTION - TEAM MATES=========== */
+
+.team_mates .title::before,
+.team_mates .title::after {
+    width: 38%;
+}
+
+.team_mates .workers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.workers h3 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.workers p {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(111, 108, 108);
+    margin-top: 10px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.register h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.register p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(88, 88, 88);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.team_mates {
+    margin-bottom: 50px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* width: 60%; */
+    border-radius: 3px;
+    box-shadow: 0px 6px 32px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 252, 252);
+    width: 55%;
+    height: 80px;
+
+}
+
+.apply {
+    border-radius: 3px;
+    background: rgb(229, 227, 227);
+    width: 270px;
+    height: 42px;
+}
+
+
+input::placeholder {
+    color: rgb(115, 114, 114);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+
+.btn {
+    border-radius: 3px;
+    background-color: rgb(101, 37, 111);
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 45px;
+}
+
+/* ========= FOOTER ========== */
+
+footer {
+    background-color: rgb(58, 58, 58);
+    padding: 50px 0px 60px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.div_footer {
+    width: 200px;
+    text-align: left;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: rgb(188, 187, 187);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+footer ul a {
+    color: rgb(188, 187, 187);
+}
+
+footer ul {
+    line-height: 25px;
+}
+
+.footer3 a {
+    color: rgb(188, 187, 187);
+    line-height: 30px;
+}
+
+.footer4 p a {
+    color: rgb(188, 187, 187);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.div_footer .facebook {
+    line-height: 40px;
+}

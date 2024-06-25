@@ -1,0 +1,418 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.header_top_block {
+    background-color: rgb(101, 37, 111);
+    padding: 10px 0;
+}
+
+.header_top_block .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_text {
+    color: rgb(255, 183, 0);
+}
+
+.text_number {
+    display: flex;
+}
+
+.right_text {
+    color: #fff;
+}
+
+.text_number a {
+    color: rgb(255, 183, 0);
+    padding-left: 5px;
+}
+
+
+
+.navigation_block {
+    padding: 8px 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.navigation_block .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_block nav {
+    display: flex;
+    width: 75%;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu a {
+    color: rgb(42, 40, 40);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.price {
+    background-color: rgb(101, 37, 111);
+    color: #fff;
+    width: 180px;
+    height: 35px;
+}
+
+/* ============= MAIN ================ */
+
+.title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: '';
+    height: 2px;
+    background-color: rgb(190, 190, 190);
+    width: 40%;
+    position: absolute;
+    top: 45%;
+}
+
+.title::before {
+    left: 0;
+}
+
+.title::after {
+    right: 0;
+}
+
+
+.main_servise .container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-column,
+.middle-column,
+.right-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.lup {
+    margin-bottom: 10px;
+}
+
+.lup img {
+    width: 100%;
+}
+
+.right-column img {
+    width: 100%;
+    height: 772px;
+}
+
+
+.down_servise_pictures .container {
+    display: flex;
+    justify-content: center;
+}
+
+.down_left_picture,
+.down_right_picture {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.down_left_picture img {
+    width: 842px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.down_right_picture img {
+    width: 100%;
+}
+
+.main_servise p {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.lup,
+.lup_5,
+.lup_6,
+.lup_7 {
+    position: relative;
+}
+
+.text_1 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 50%;
+    line-height: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.text_2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_3 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_4 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_5 {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_6 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_7 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ================ OUR ADVANTAGES=========================== */
+
+.title_our_advantages::before,
+.title_our_advantages::after {
+    width: 34%;
+}
+
+
+.up_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.up_container p {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    /* text-align: left; */
+}
+
+.vector_1,
+.vector_2,
+.vector_3,
+.vector_4 {
+    position: relative;
+}
+
+.efficiency {
+    position: absolute;
+    top: 70px;
+    left: -50px;
+}
+
+.hight_quality {
+    position: absolute;
+    top: 70px;
+    left: -115px;
+}
+
+.hight_quality2 {
+    position: absolute;
+    top: 93px;
+    left: -45px;
+}
+
+.modern {
+    position: absolute;
+    top: 70px;
+    left: -45px;
+}
+
+.spectr {
+    position: absolute;
+    top: 70px;
+    left: -60px;
+}
+
+.spectr2 {
+    position: absolute;
+    top: 70px;
+    left: 37px;
+}
+
+.spectr3 {
+    position: absolute;
+    top: 93px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.register h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.register p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(88, 88, 88);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.team_mates {
+    margin-bottom: 50px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* width: 60%; */
+    border-radius: 3px;
+    box-shadow: 0px 6px 32px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 252, 252);
+    width: 55%;
+    height: 80px;
+
+}
+
+.apply {
+    border-radius: 3px;
+    background: rgb(229, 227, 227);
+    width: 270px;
+    height: 42px;
+}
+
+
+input::placeholder {
+    color: rgb(115, 114, 114);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+
+.btn {
+    border-radius: 3px;
+    background-color: rgb(101, 37, 111);
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 45px;
+}
+
+
+/* ========= FOOTER ========== */
+
+footer {
+    background-color: rgb(58, 58, 58);
+    padding: 50px 0px 60px 0;
+    margin-top: 40px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.div_footer {
+    width: 200px;
+    text-align: left;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: rgb(188, 187, 187);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+footer ul a {
+    color: rgb(188, 187, 187);
+}
+
+footer ul {
+    line-height: 25px;
+}
+
+.footer3 a {
+    color: rgb(188, 187, 187);
+    line-height: 30px;
+}
+
+.footer4 p a {
+    color: rgb(188, 187, 187);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.div_footer .facebook {
+    line-height: 40px;
+}
